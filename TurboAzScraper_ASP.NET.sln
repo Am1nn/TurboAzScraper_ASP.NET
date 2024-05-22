@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboAzScraper_ASP.NET", "TurboAzScraper_ASP.NET\TurboAzScraper_ASP.NET.csproj", "{30791DAE-AD05-4F1D-A751-1D2A1A915E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboAzScraper_Domain", "TurboAzScraper_Domain\TurboAzScraper_Domain.csproj", "{6B331304-76D9-4756-9020-3CA109432C01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30791DAE-AD05-4F1D-A751-1D2A1A915E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30791DAE-AD05-4F1D-A751-1D2A1A915E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30791DAE-AD05-4F1D-A751-1D2A1A915E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30791DAE-AD05-4F1D-A751-1D2A1A915E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B331304-76D9-4756-9020-3CA109432C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B331304-76D9-4756-9020-3CA109432C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B331304-76D9-4756-9020-3CA109432C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B331304-76D9-4756-9020-3CA109432C01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C549FD-A03B-4388-A2DA-55BD2B243E55}
+	EndGlobalSection
+EndGlobal
