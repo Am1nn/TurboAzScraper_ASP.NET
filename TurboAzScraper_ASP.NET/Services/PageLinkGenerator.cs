@@ -1,4 +1,7 @@
-﻿namespace TurboAzScraper_ASP.NET.Services;
+﻿using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium;
+
+namespace TurboAzScraper_ASP.NET.Services;
 
 
 
@@ -9,14 +12,38 @@ public class PageLinkGenerator
     {    
         ICollection<string> links=new List<string>();
         string mainPage = "https://turbo.az/autos?page=";
-        if (vipped )
+        if (vipped)
         {
             mainPage = "https://turbo.az/autos/vip?page=";
         }
-        for (int i = 1;i<pagecount;i++)
+        for (int i = 1; i < pagecount; i++)
         {
             links.Append(mainPage + i.ToString());
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         return links;
     }
 

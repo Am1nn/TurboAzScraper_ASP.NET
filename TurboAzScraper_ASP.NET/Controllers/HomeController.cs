@@ -11,8 +11,8 @@ namespace TurboAzScraper_ASP.NET.Controllers
         {
 
 
-            //PageLinkGenerator pageLinkGenerator = new PageLinkGenerator();
-            //pageLinkGenerator.GeneratePageLink(4,true);
+            PageLinkGenerator pageLinkGenerator = new PageLinkGenerator();
+            pageLinkGenerator.GeneratePageLink(4, true);
             return View();
         }
 
